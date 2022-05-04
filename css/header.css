@@ -21,26 +21,18 @@ header h1{
 }
 
 .toggle-menu {
-    border: 2px solid white;
+    float: right;
+    margin: 15px;
+}
+
+.toggle {
     width: 50px;
     height: 50px;
-    float: right;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 20px 30px;
     transition: 0.3s;
-}
-
-.toggle-menu span {
-    display: flex;
-    border: 1px solid white;
     border-radius: 10px;
-    background-color: white;
-    height: 4px;
-    margin: 4px 0;
 }
 
-.toggle-menu:hover {
+.toggle:hover {
     cursor: pointer;
     box-shadow: 0 0 20px white;
     opacity: 0.8;
@@ -72,7 +64,7 @@ header h1{
 }
 
 #check {
-      display: none;
+    display: none;
 }
   
 #check:checked ~ .sidebar {
@@ -81,7 +73,7 @@ header h1{
 
 .menu-active {
     box-shadow: 0 0 20px white;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 h2 {
