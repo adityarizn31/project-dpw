@@ -88,7 +88,7 @@ h2 {
 
 .whatsapp {
     position: fixed;
-    right: -130px;
+    right: -120px;
     bottom: 80px;
     width: 180px;
     height: 60px;
@@ -118,7 +118,7 @@ h2 {
 }
 
 .whatsapp .col:nth-child(2) {
-    padding: 16px 20px 22px 0;
+    padding: 16px 10px 22px 10px;
     font-size: 18px;
 }
 
