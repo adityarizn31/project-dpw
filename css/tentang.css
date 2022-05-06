@@ -1,0 +1,54 @@
+@import url(css-reset.css);
+@import url(header.css);
+
+.Sejarah h2{
+    display: inline-block;
+    text-align: center;
+    width: 420px;
+    margin: 20px 0 20px 360px;
+}
+
+.Sejarah img{
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin: 20px;
+    border: 1px solid;
+}
+
+.Sejarah{
+    margin: 0px 100px 50px 100px;
+    border-bottom: 5px solid #c4c4c4;
+    font-family: 'Noto Serif', serif;
+    line-height: 1.5em;
+}
+
+.Sejarah p{
+    text-align: justify;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.Struktur img{
+    width: 80%;
+}
+
+.Struktur{
+    text-align: center;
+}
+
+@media (max-width: 500px){
+    .Sejarah h2 {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .Sejarah img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .Sejarah {
+        margin: 20px;
+    }
+}
