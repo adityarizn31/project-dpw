@@ -46,10 +46,11 @@ header h1{
     background-color: rgba(230, 33, 41, 0.7);
     transition: 0.8s;
     z-index: 999;
+    font-family: 'Noto Serif', serif;
 }
 
 .menu-sidebar li {
-    padding: 20px 30px;
+    padding: 20px 50px;
     transition: 0.8s;
 }
   
@@ -57,6 +58,7 @@ header h1{
     color: white;
     font-size: 20px;
     transition: 0.5s;
+    text-decoration: none;
 }
 
 .menu-sidebar li a:hover {
@@ -78,12 +80,13 @@ header h1{
 
 h2 {
     display: inline-block;
-    width: 300px;
+    width: 360px;
     font-size: 28px;
-    margin: 50px 0 30px 0;
+    margin: 30px 0 30px 0;
     padding: 10px;
     border: 1px solid #E62129;
     border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .whatsapp {
@@ -128,7 +131,12 @@ h2 {
         width: 30%;
     }
 
+    .menu-sidebar li {
+        padding: 20px;
+    }
+
     header h1 {
         font-size: 30px;
     }
+
 }
