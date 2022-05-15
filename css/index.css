@@ -195,6 +195,12 @@ nav a {
     margin-top: 3%;
 }
 
+@media (max-width: 500px) {
+    .berita1 {
+        margin-left: 20px;
+    }
+}
+
 
 @keyframes animasiku{
     from{
