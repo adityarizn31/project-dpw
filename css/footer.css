@@ -111,4 +111,8 @@
     .footer-col{
         width: 100%;
     }
+
+    .col {
+        padding-left: 30px;
+    }
 }
