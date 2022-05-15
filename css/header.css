@@ -165,8 +165,12 @@ h2 {
 
 }
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
     header .h1 {
         width: 160px;
+    }
+
+    .whatsapp .col:nth-child(2) {
+        display: none;
     }
 }
