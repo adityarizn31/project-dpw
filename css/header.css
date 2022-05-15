@@ -179,4 +179,8 @@ h2 {
     .whatsapp .col:nth-child(2) {
         display: none;
     }
+
+    .whatsapp:hover > .col{
+        display: block;
+    }
 }
