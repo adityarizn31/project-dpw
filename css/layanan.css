@@ -1,3 +1,88 @@
 @import url(css-reset.css);
 
 @import url(header.css);
+
+@import url(footer.css);
+
+.info img{
+    border: 1px solid #E62129;
+    padding: 2px;
+    border-radius: 10px;
+    margin: 20px 30px 50px 30px;
+    width: 700px;
+    height: 500px;
+    float: left;
+    
+}
+
+.info h2{
+    text-align: center;
+    margin-top: 50px;
+    width: 400px;
+}
+
+.info p{
+    font-family: 'Noto Serif', serif;
+    line-height: 1.5em;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.pandu h2{
+    text-align: center;
+    margin-top: 50px;
+    width: 600px;
+}
+
+.pandu ol{
+    font-family: 'Noto Serif', serif;
+    line-height: 1.5em;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    
+}
+
+.fasi h2{
+    text-align: center;
+    margin-top: 50px;
+    width: 450px;
+}
+
+.fasi ol{
+    font-family: 'Noto Serif', serif;
+    line-height: 1.5em;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    
+}
+
+.fasi, .pandu, .info{
+    text-align: center;
+}
+
+.fasi ol, .pandu ol{
+    text-align: left;
+    margin-left: 200px;
+}
+
+
+@media (max-width:500px) {
+    .info img {
+        width: 100%;
+        height: 300px;
+        margin-left: 0;
+    }
+
+    .pandu h2{
+        width: 450px;
+    }
+
+    .fasi ol, .pandu ol{
+        text-align: left;
+        margin-left: 100px;
+    }
+}

@@ -9,11 +9,17 @@
     margin-top: 30px;
 	background-color: #e62129;
     padding: 0;
+    border-top: 4px solid #D60909;
 }
 
 .footer .footer-trans{
     font-size: 48px;
     margin-top: 50px;
+}
+
+.footer .slogan{
+    font-size: 26px;
+    color: white;
     margin-bottom: 40px;
 }
 
@@ -36,12 +42,12 @@
 }
 
 .medsos-part ul li a{
-    color: #ffffff;
+    color: #bbbbbb;
     transition: all 0.3s ease;
 }
 
 .medsos-part ul li a:hover{
-    color: #bbbbbb;
+    color: #ffffff;
 	padding-left: 8px;
 }
 
