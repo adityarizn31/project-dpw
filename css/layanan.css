@@ -77,8 +77,8 @@
         margin-left: 0;
     }
 
-    .pandu h2{
-        width: 450px;
+    .pandu h2, .info h2, .fasi h2{
+        width: 380px;
     }
 
     .fasi ol, .pandu ol{
